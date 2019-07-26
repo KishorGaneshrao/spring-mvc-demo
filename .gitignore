@@ -6,6 +6,10 @@
 
 # Idea
 .idea/
+*.iml
+
+# Gradle
+.gradle/
 
 # BlueJ files
 *.ctxt
