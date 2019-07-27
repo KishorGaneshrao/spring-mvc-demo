@@ -11,6 +11,7 @@ class SpringMvcDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
