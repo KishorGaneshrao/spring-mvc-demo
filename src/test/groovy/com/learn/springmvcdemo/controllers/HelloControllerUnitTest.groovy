@@ -14,7 +14,7 @@ class HelloControllerUnitTest {
         Model model = new BindingAwareModelMap()
         String result = controller.sayHello("Tester",model)
 
-        assertEquals("Hello", result)
+        assertEquals("hello", result)
         assertEquals("Tester", model.asMap().get("user"))
     }
 }

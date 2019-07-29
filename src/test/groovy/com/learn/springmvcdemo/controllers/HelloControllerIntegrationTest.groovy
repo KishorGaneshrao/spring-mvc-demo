@@ -24,7 +24,7 @@ class HelloControllerIntegrationTest {
     void sayHelloWithoutNameTest() throws Exception{
         mvc.perform(get("/hello").accept(MediaType.TEXT_PLAIN))
             .andExpect(status().isOk())
-            .andExpect(view().name("Hello"))
+            .andExpect(view().name("hello"))
             .andExpect(model().attribute("user", is("World")))
     }
 
@@ -32,7 +32,7 @@ class HelloControllerIntegrationTest {
     void sayHelloWithNameTest() throws Exception{
         mvc.perform(get("/hello").param("name", "Tester").accept(MediaType.TEXT_PLAIN))
             .andExpect(status().isOk())
-            .andExpect(view().name("Hello"))
+            .andExpect(view().name("hello"))
             .andExpect(model().attribute("user", is("Tester")))
     }
 }
