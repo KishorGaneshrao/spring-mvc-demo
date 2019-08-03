@@ -1,4 +1,4 @@
-package com.learn.springmvcdemo.template
+package com.learn.springmvcdemo.json
 
 class JokeResponse {
 

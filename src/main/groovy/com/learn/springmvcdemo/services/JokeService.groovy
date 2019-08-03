@@ -1,6 +1,6 @@
 package com.learn.springmvcdemo.services
 
-import com.learn.springmvcdemo.template.JokeResponse
+import com.learn.springmvcdemo.json.JokeResponse
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.web.client.RestTemplateBuilder
